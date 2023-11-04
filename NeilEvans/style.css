@@ -30,3 +30,13 @@ a:hover.specialLink {
   border: 5px solid #b87723;
   border-radius: 5px;
 }
+
+
+#redBackground {
+  background-color: red;
+}
+
+body {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  color: white !important;
+}
