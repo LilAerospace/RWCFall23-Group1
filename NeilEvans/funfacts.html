@@ -19,13 +19,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="funfacts.html">Fun Facts</a>
+            <a class="nav-link active" aria-current="page" href="funfacts.html">Fun Facts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/NeilEvans">Group X</a>
+            <a class="nav-link" href="#">Group X</a>
           </li>
         </ul>
       </div>
@@ -33,16 +33,6 @@
   </nav>
   <div class="container pt-3">
     <div class="row">
-      <div class="col-4">
-        <h1>Neil Evans</h1>
-        <p>Neil Evans is a senior student at NJIT majoring in Information Technology with a specialization in Web Apps and Web Development. He is 22 years old and is currently teaching the Intro to Web Dev track for Fall 2023 RWC.</p>
-        <h3 id="magicList">My Favorite Websites</h3>
-        <ul id="magicList">
-          <li><a href="https://www.youtube.com" target="_blank" class="specialLink">YouTube</a></li>
-          <li><a href="https://www.njit.edu" target="_blank" class="specialLink">NJIT Website</a></li>
-        </ul>
-        <img src="https://media3.giphy.com/media/scZPhLqaVOM1qG4lT9/200w.gif?cid=6c09b952ehhyt1oup1rt668sdaj759s7x3wiyh98oa7dba72&ep=v1_gifs_search&rid=200w.gif&ct=g" alt="Dog Picture" class="img-fluid rounded mx-auto d-block" width="50%" id="image1" />
-      </div>
       <div class="col-4">
         <h3>Fun Facts About Me</h3>
         <ol>
@@ -60,15 +50,29 @@
           <li>I like basically all types of music except for country music.</li>
         </ol>
       </div>
-      <div class="col-4">
-        <div class="card">
-          <img src="https://media3.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif" class="card-img-top" alt="Hacking GIF">
-          <div class="card-body">
-            <h5 class="card-title">Want to go somewhere that I visit on a daily basis?</h5>
-            <p class="card-text">Click the button below to visit my favorite website to visit on the daily.</p>
-            <a href="https://theverge.com/tech" class="btn btn-primary">Go into the matrix</a>
+      <div class="col-8">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.wallpaperscraft.com/image/single/books_reading_tea_212048_1920x1080.jpg" class="d-block w-100" alt="reading">
+            </div>
+            <div class="carousel-item">
+              <img src="https://wallpaperaccess.com/full/550685.jpg" class="d-block w-100" alt="tamales">
+            </div>
+            <div class="carousel-item">
+              <img src="https://integrisok.com/-/media/blog/q3-2020/patients-doing-art-therapy.ashx?as=1&mh=1080&mw=1920&revision=37d1e3c6-52e8-42ed-b6eb-bfb9a1d85ae6&hash=B060E11837B3CB301ED2923089F47CA4" class="d-block w-100" alt="Art">
+            </div>
           </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+        
       </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

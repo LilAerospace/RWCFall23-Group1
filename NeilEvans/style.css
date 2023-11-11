@@ -15,13 +15,18 @@ a {
   text-decoration: none !important;
 }
 
+#magicList {
+  list-style-type: none;
+  text-align: center;
+}
+
 .specialLink {
   color: red !important;
 }
 
 a:hover.specialLink {
   text-decoration: underline !important;
-  color: green !important;
+  color: white !important;
 }
 
 #image1 {
