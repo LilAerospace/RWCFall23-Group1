@@ -46,7 +46,17 @@ a:hover {
   color: #a83be3 !important;
 }
 
+.static {
+  position:absolute;
+  background: #11a4ee;
+}
 
+.static:hover {
+  opacity:0;
+}
+.card-body{
+  background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+}
 body {
   background-image: linear-gradient(to bottom, #100e16 0%, #24212c 100%);
 }
