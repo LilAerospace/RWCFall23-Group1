@@ -56,7 +56,27 @@ a:hover {
 }
 .card-body{
   background-image: linear-gradient(to top, #b224ef 0%, #7579ff 100%);
+  
 }
-body {
+#Title{
+  color: #F2F2F2 !important;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card{
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  max-width: 250px;
+}
+body{
+  background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+background-attachment: fixed;
+}
+
+#Dark{
   background-image: linear-gradient(to bottom, #100e16 0%, #24212c 100%);
+background-attachment: fixed;
 }
