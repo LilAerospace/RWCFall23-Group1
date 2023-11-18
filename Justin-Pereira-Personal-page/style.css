@@ -2,8 +2,12 @@ html {Height: 100% Width: 100%}
 
 h1{color: gold !important}
 
+a:hover {color: brown}
 
+body {background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);+}
 
-a:hover {color: orange}
+h1 {
+  text-shadow: 3px 3px brown;
+}
 
-body {background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);}
+a {color: black !important}
